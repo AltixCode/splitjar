@@ -24,6 +24,7 @@ import { showInterstitial } from '@/monetization/interstitial';
 import { TIP_PRESETS, useBillStore } from '@/store/useBillStore';
 import { usePremiumStore } from '@/store/usePremiumStore';
 import { MIN_TOUCH_TARGET, useTheme, withAlpha } from '@/theme';
+import { useTabletColumn } from '@/theme/useTabletColumn';
 
 /**
  * The device's own currency, derived from its locale.
@@ -46,6 +47,7 @@ export default function Home() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { colors, spacing, radius } = useTheme();
+  const tabletColumn = useTabletColumn();
 
   const billText = useBillStore((s) => s.billText);
   const tipPercent = useBillStore((s) => s.tipPercent);
@@ -137,6 +139,8 @@ export default function Home() {
           paddingHorizontal: spacing.base,
           paddingBottom: spacing.xl,
           gap: spacing.base,
+        
+          ...tabletColumn,
         }}
         showsVerticalScrollIndicator={false}
       >
