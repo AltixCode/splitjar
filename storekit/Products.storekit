@@ -1,0 +1,35 @@
+{
+  "identifier": "7A819B20-6B30-45CF-85CF-6E36D0A75BEF",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "4.99",
+      "familyShareable": false,
+      "internalID": "67B32387-35E8-43F6-873A-B84323237625",
+      "localizations": [
+        {
+          "description": "splitjar remove ads lifetime unlock",
+          "displayName": "splitjar remove ads",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.altixcode.splitjar.removeads",
+      "referenceName": "splitjar remove ads",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}
