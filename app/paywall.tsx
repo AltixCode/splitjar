@@ -116,11 +116,11 @@ export default function Paywall() {
 
       <ScrollView
         contentContainerStyle={{
-          padding: spacing.xl,
+          paddingHorizontal: spacing.xl,
+          paddingTop: spacing.sm,
           paddingBottom: spacing["3xl"],
           ...tabletColumn,
           flexGrow: 1,
-          justifyContent: "center",
         }}
       >
         {/* Zigzag cascade, not a column of matching rows.
